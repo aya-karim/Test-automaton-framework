@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataObjects>
+	<DataObject id="ChooseBrowser">
+		<Browser>Chrome</Browser>
+	</DataObject>
+	<DataObject>
+		<WebElements>
+			<WebElement id="emailField">
+				<ID>email</ID>
+			</WebElement>
+			<WebElement id="passwordField">
+				<ID>pass</ID>
+			</WebElement>
+			<WebElement id="logInButton">
+				<ID>login</ID>
+			</WebElement>
+			<WebElement id="searchBar">
+				<ID>search-q</ID>
+			</WebElement>
+			<WebElement id="englishLabel">
+				<xPath>
+					//a[@ajaxparams="https://www.vodafone.com.eg/eshop/global/gadgets/changeLocale.jsp,,0,locale:en_US"]
+				</xPath>
+			</WebElement>
+			<WebElement id="Arabiclabel">
+				<xPath>
+					//a[@ajaxparams="https://www.vodafone.com.eg/eshop/global/gadgets/changeLocale.jsp,,0,locale:/ar_EG"]
+				</xPath>
+			</WebElement>
+			<WebElement id="SmartPhones">
+				<xPath>//h2[text()=" Smart Phones "]</xPath>
+			</WebElement>
+			<WebElement id="gridView">
+				<className>Grid_View_Items_Devices</className>
+			</WebElement>
+			<WebElement id="listofSearch">
+				<xPath>//li[@onclick="sendClickthrough(this)"]</xPath>
+			</WebElement>
+			<WebElement id="searchResult">
+				<xPath>//p[@class="no-gutter no-gutter--top"]//strong[1]</xPath>
+			</WebElement>
+		</WebElements>
+		<TestData>
+			<testParameter name="URL">
+				<value>https://www.facebook.com/</value>
+			</testParameter>
+			<testParameter name="searchKey">
+				<value>iPhone</value>
+			</testParameter>
+			<testParameter name="userName">
+				<value>suqvqscjow_1617727445@tfbnw.net</value>
+			</testParameter>
+			<testParameter name="password">
+				<value>Adel2412</value>
+			</testParameter>
+			<testParameter name="API">
+				<value>http://localhost:3030</value>
+			</testParameter>
+		</TestData>
+	</DataObject>
+</DataObjects>
